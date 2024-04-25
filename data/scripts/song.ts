@@ -42,4 +42,14 @@ export const Songs: Songs = {
     ],
     camera: CameraData.camera0398,
   },
+  "0441": {
+    characters: [
+      Character.vbs.azusawa_kohane,
+      Character.vbs.shiraishi_an,
+      Character.vbs.shinonome_akito,
+      Character.vbs.aoyagi_toya,
+      Character.vbs.meiko,
+    ],
+    camera: CameraData.camera0441,
+  },
 };

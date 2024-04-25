@@ -129,7 +129,9 @@ export const SongManager = {
       mc.system.clearRun(job);
     }
     SongManager.jobs = [];
-    player.camera.clear();
+    mc.system.runTimeout(() => {
+      player.camera.clear();
+    }, mc.TicksPerSecond);
   },
 };
 
