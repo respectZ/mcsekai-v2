@@ -106,11 +106,27 @@ export const SongManager = {
 
       const t = parseFloat(time);
       const id = mc.system.runTimeout(() => {
+        if (!player.isValid()) return;
+
+        // Skip keyframe
+        if (player.getDynamicProperty("mcsekai:camera.skip")) {
+          player.setDynamicProperty("mcsekai:camera.skip", undefined);
+          player.camera.setCamera("minecraft:free", {
+            location: loc,
+            rotation,
+          });
+          return;
+        }
+
         player.camera.setCamera("minecraft:free", {
           easeOptions,
           location: loc,
           rotation,
         });
+        if (!keyframe.easeOptions) {
+          // Tell to also skip next keyframe
+          player.setDynamicProperty("mcsekai:camera.skip", true);
+        }
       }, t);
       SongManager.jobs.push(id);
     }
@@ -131,7 +147,7 @@ export const SongManager = {
     SongManager.jobs = [];
     mc.system.runTimeout(() => {
       player.camera.clear();
-    }, mc.TicksPerSecond);
+    }, 2);
   },
 };
 
