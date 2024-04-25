@@ -1,0 +1,1215 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "mcsekai.song.0001": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0001",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0002": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0002",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0003": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0003",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0008": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0008",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0010": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0010",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0015": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0015",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0019": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0019",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0026": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0026",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0038": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0038",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0041": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0041",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0051": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0051",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0052": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0052",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0054": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0054",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0055": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0055",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0057": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0057",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0060": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0060",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0063": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0063",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0064": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0064",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0067": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0067",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0068": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0068",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0069": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0069",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0070": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0070",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0071": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0071",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0073": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0073",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0074": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0074",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0075": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0075",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0076": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0076",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0077": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0077",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0088": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0088",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0089": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0089",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0090": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0090",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0091": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0091",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0095": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0095",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0098": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0098",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0106": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0106",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0112": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0112",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0116": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0116",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0120": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0120",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0121": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0121",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0126": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0126",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0127": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0127",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0129": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0129",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0130": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0130",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0133": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0133",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0136": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0136",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0140": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0140",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0141": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0141",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0142": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0142",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0147": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0147",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0148": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0148",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0153": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0153",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0159": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0159",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0160": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0160",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0169": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0169",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0170": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0170",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0174": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0174",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0178": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0178",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0180": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0180",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0181": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0181",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0182": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0182",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0189": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0189",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0195": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0195",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0196": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0196",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0201": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0201",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0211": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0211",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0212": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0212",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0213": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0213",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0217": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0217",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0218": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0218",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0225": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0225",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0226": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0226",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0235": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0235",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0236": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0236",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0237": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0237",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0252": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0252",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0253": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0253",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0259": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0259",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0260": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0260",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0267": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0267",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0268": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0268",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0281": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0281",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0282": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0282",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0283": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0283",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0286": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0286",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0287": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0287",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0299": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0299",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0300": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0300",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0301": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0301",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0307": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0307",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0308": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0308",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0309": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0309",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0323": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0323",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0324": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0324",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0325": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0325",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0339": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0339",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0340": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0340",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0341": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0341",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0344": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0344",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0345": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0345",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0355": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0355",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0356": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0356",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0357": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0357",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0367": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0367",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0377": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0377",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0383": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0383",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0384": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0384",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0397": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0397",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0398": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0398",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0402": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0402",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0404": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0404",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0405": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0405",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0409": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0409",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0410": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0410",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0411": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0411",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0422": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0422",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0423": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0423",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0424": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0424",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0431": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0431",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0434": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0434",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0441": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0441",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "mcsekai.song.0442": {
+      "category": "ui",
+      "sounds": [
+        {
+          "name": "sounds/mcsekai/song/0442",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    }
+  }
+}

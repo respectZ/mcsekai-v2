@@ -1,0 +1,1690 @@
+{
+  "format_version": "1.12.0",
+  "animation_controllers": {
+    "controller.animation.mcsekai.song": {
+      "states": {
+        "0001": {
+          "animations": [
+            "controller.song.0001"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 1"
+            }
+          ]
+        },
+        "0002": {
+          "animations": [
+            "controller.song.0002"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 2"
+            }
+          ]
+        },
+        "0003": {
+          "animations": [
+            "controller.song.0003"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 3"
+            }
+          ]
+        },
+        "0008": {
+          "animations": [
+            "controller.song.0008"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 8"
+            }
+          ]
+        },
+        "0010": {
+          "animations": [
+            "controller.song.0010"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 10"
+            }
+          ]
+        },
+        "0015": {
+          "animations": [
+            "controller.song.0015"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 15"
+            }
+          ]
+        },
+        "0019": {
+          "animations": [
+            "controller.song.0019"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 19"
+            }
+          ]
+        },
+        "0026": {
+          "animations": [
+            "controller.song.0026"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 26"
+            }
+          ]
+        },
+        "0038": {
+          "animations": [
+            "controller.song.0038"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 38"
+            }
+          ]
+        },
+        "0041": {
+          "animations": [
+            "controller.song.0041"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 41"
+            }
+          ]
+        },
+        "0051": {
+          "animations": [
+            "controller.song.0051"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 51"
+            }
+          ]
+        },
+        "0052": {
+          "animations": [
+            "controller.song.0052"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 52"
+            }
+          ]
+        },
+        "0054": {
+          "animations": [
+            "controller.song.0054"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 54"
+            }
+          ]
+        },
+        "0055": {
+          "animations": [
+            "controller.song.0055"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 55"
+            }
+          ]
+        },
+        "0057": {
+          "animations": [
+            "controller.song.0057"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 57"
+            }
+          ]
+        },
+        "0060": {
+          "animations": [
+            "controller.song.0060"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 60"
+            }
+          ]
+        },
+        "0063": {
+          "animations": [
+            "controller.song.0063"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 63"
+            }
+          ]
+        },
+        "0064": {
+          "animations": [
+            "controller.song.0064"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 64"
+            }
+          ]
+        },
+        "0067": {
+          "animations": [
+            "controller.song.0067"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 67"
+            }
+          ]
+        },
+        "0068": {
+          "animations": [
+            "controller.song.0068"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 68"
+            }
+          ]
+        },
+        "0069": {
+          "animations": [
+            "controller.song.0069"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 69"
+            }
+          ]
+        },
+        "0070": {
+          "animations": [
+            "controller.song.0070"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 70"
+            }
+          ]
+        },
+        "0071": {
+          "animations": [
+            "controller.song.0071"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 71"
+            }
+          ]
+        },
+        "0073": {
+          "animations": [
+            "controller.song.0073"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 73"
+            }
+          ]
+        },
+        "0074": {
+          "animations": [
+            "controller.song.0074"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 74"
+            }
+          ]
+        },
+        "0075": {
+          "animations": [
+            "controller.song.0075"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 75"
+            }
+          ]
+        },
+        "0076": {
+          "animations": [
+            "controller.song.0076"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 76"
+            }
+          ]
+        },
+        "0077": {
+          "animations": [
+            "controller.song.0077"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 77"
+            }
+          ]
+        },
+        "0088": {
+          "animations": [
+            "controller.song.0088"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 88"
+            }
+          ]
+        },
+        "0089": {
+          "animations": [
+            "controller.song.0089"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 89"
+            }
+          ]
+        },
+        "0090": {
+          "animations": [
+            "controller.song.0090"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 90"
+            }
+          ]
+        },
+        "0091": {
+          "animations": [
+            "controller.song.0091"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 91"
+            }
+          ]
+        },
+        "0095": {
+          "animations": [
+            "controller.song.0095"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 95"
+            }
+          ]
+        },
+        "0098": {
+          "animations": [
+            "controller.song.0098"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 98"
+            }
+          ]
+        },
+        "0106": {
+          "animations": [
+            "controller.song.0106"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 106"
+            }
+          ]
+        },
+        "0112": {
+          "animations": [
+            "controller.song.0112"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 112"
+            }
+          ]
+        },
+        "0116": {
+          "animations": [
+            "controller.song.0116"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 116"
+            }
+          ]
+        },
+        "0120": {
+          "animations": [
+            "controller.song.0120"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 120"
+            }
+          ]
+        },
+        "0121": {
+          "animations": [
+            "controller.song.0121"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 121"
+            }
+          ]
+        },
+        "0126": {
+          "animations": [
+            "controller.song.0126"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 126"
+            }
+          ]
+        },
+        "0127": {
+          "animations": [
+            "controller.song.0127"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 127"
+            }
+          ]
+        },
+        "0129": {
+          "animations": [
+            "controller.song.0129"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 129"
+            }
+          ]
+        },
+        "0130": {
+          "animations": [
+            "controller.song.0130"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 130"
+            }
+          ]
+        },
+        "0133": {
+          "animations": [
+            "controller.song.0133"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 133"
+            }
+          ]
+        },
+        "0136": {
+          "animations": [
+            "controller.song.0136"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 136"
+            }
+          ]
+        },
+        "0140": {
+          "animations": [
+            "controller.song.0140"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 140"
+            }
+          ]
+        },
+        "0141": {
+          "animations": [
+            "controller.song.0141"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 141"
+            }
+          ]
+        },
+        "0142": {
+          "animations": [
+            "controller.song.0142"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 142"
+            }
+          ]
+        },
+        "0147": {
+          "animations": [
+            "controller.song.0147"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 147"
+            }
+          ]
+        },
+        "0148": {
+          "animations": [
+            "controller.song.0148"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 148"
+            }
+          ]
+        },
+        "0153": {
+          "animations": [
+            "controller.song.0153"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 153"
+            }
+          ]
+        },
+        "0159": {
+          "animations": [
+            "controller.song.0159"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 159"
+            }
+          ]
+        },
+        "0160": {
+          "animations": [
+            "controller.song.0160"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 160"
+            }
+          ]
+        },
+        "0169": {
+          "animations": [
+            "controller.song.0169"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 169"
+            }
+          ]
+        },
+        "0170": {
+          "animations": [
+            "controller.song.0170"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 170"
+            }
+          ]
+        },
+        "0174": {
+          "animations": [
+            "controller.song.0174"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 174"
+            }
+          ]
+        },
+        "0178": {
+          "animations": [
+            "controller.song.0178"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 178"
+            }
+          ]
+        },
+        "0180": {
+          "animations": [
+            "controller.song.0180"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 180"
+            }
+          ]
+        },
+        "0181": {
+          "animations": [
+            "controller.song.0181"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 181"
+            }
+          ]
+        },
+        "0182": {
+          "animations": [
+            "controller.song.0182"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 182"
+            }
+          ]
+        },
+        "0189": {
+          "animations": [
+            "controller.song.0189"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 189"
+            }
+          ]
+        },
+        "0195": {
+          "animations": [
+            "controller.song.0195"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 195"
+            }
+          ]
+        },
+        "0196": {
+          "animations": [
+            "controller.song.0196"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 196"
+            }
+          ]
+        },
+        "0201": {
+          "animations": [
+            "controller.song.0201"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 201"
+            }
+          ]
+        },
+        "0211": {
+          "animations": [
+            "controller.song.0211"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 211"
+            }
+          ]
+        },
+        "0212": {
+          "animations": [
+            "controller.song.0212"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 212"
+            }
+          ]
+        },
+        "0213": {
+          "animations": [
+            "controller.song.0213"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 213"
+            }
+          ]
+        },
+        "0217": {
+          "animations": [
+            "controller.song.0217"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 217"
+            }
+          ]
+        },
+        "0218": {
+          "animations": [
+            "controller.song.0218"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 218"
+            }
+          ]
+        },
+        "0225": {
+          "animations": [
+            "controller.song.0225"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 225"
+            }
+          ]
+        },
+        "0226": {
+          "animations": [
+            "controller.song.0226"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 226"
+            }
+          ]
+        },
+        "0235": {
+          "animations": [
+            "controller.song.0235"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 235"
+            }
+          ]
+        },
+        "0236": {
+          "animations": [
+            "controller.song.0236"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 236"
+            }
+          ]
+        },
+        "0237": {
+          "animations": [
+            "controller.song.0237"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 237"
+            }
+          ]
+        },
+        "0252": {
+          "animations": [
+            "controller.song.0252"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 252"
+            }
+          ]
+        },
+        "0253": {
+          "animations": [
+            "controller.song.0253"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 253"
+            }
+          ]
+        },
+        "0259": {
+          "animations": [
+            "controller.song.0259"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 259"
+            }
+          ]
+        },
+        "0260": {
+          "animations": [
+            "controller.song.0260"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 260"
+            }
+          ]
+        },
+        "0267": {
+          "animations": [
+            "controller.song.0267"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 267"
+            }
+          ]
+        },
+        "0268": {
+          "animations": [
+            "controller.song.0268"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 268"
+            }
+          ]
+        },
+        "0281": {
+          "animations": [
+            "controller.song.0281"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 281"
+            }
+          ]
+        },
+        "0282": {
+          "animations": [
+            "controller.song.0282"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 282"
+            }
+          ]
+        },
+        "0283": {
+          "animations": [
+            "controller.song.0283"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 283"
+            }
+          ]
+        },
+        "0286": {
+          "animations": [
+            "controller.song.0286"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 286"
+            }
+          ]
+        },
+        "0287": {
+          "animations": [
+            "controller.song.0287"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 287"
+            }
+          ]
+        },
+        "0299": {
+          "animations": [
+            "controller.song.0299"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 299"
+            }
+          ]
+        },
+        "0300": {
+          "animations": [
+            "controller.song.0300"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 300"
+            }
+          ]
+        },
+        "0301": {
+          "animations": [
+            "controller.song.0301"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 301"
+            }
+          ]
+        },
+        "0307": {
+          "animations": [
+            "controller.song.0307"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 307"
+            }
+          ]
+        },
+        "0308": {
+          "animations": [
+            "controller.song.0308"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 308"
+            }
+          ]
+        },
+        "0309": {
+          "animations": [
+            "controller.song.0309"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 309"
+            }
+          ]
+        },
+        "0323": {
+          "animations": [
+            "controller.song.0323"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 323"
+            }
+          ]
+        },
+        "0324": {
+          "animations": [
+            "controller.song.0324"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 324"
+            }
+          ]
+        },
+        "0325": {
+          "animations": [
+            "controller.song.0325"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 325"
+            }
+          ]
+        },
+        "0339": {
+          "animations": [
+            "controller.song.0339"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 339"
+            }
+          ]
+        },
+        "0340": {
+          "animations": [
+            "controller.song.0340"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 340"
+            }
+          ]
+        },
+        "0341": {
+          "animations": [
+            "controller.song.0341"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 341"
+            }
+          ]
+        },
+        "0344": {
+          "animations": [
+            "controller.song.0344"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 344"
+            }
+          ]
+        },
+        "0345": {
+          "animations": [
+            "controller.song.0345"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 345"
+            }
+          ]
+        },
+        "0355": {
+          "animations": [
+            "controller.song.0355"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 355"
+            }
+          ]
+        },
+        "0356": {
+          "animations": [
+            "controller.song.0356"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 356"
+            }
+          ]
+        },
+        "0357": {
+          "animations": [
+            "controller.song.0357"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 357"
+            }
+          ]
+        },
+        "0367": {
+          "animations": [
+            "controller.song.0367"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 367"
+            }
+          ]
+        },
+        "0377": {
+          "animations": [
+            "controller.song.0377"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 377"
+            }
+          ]
+        },
+        "0383": {
+          "animations": [
+            "controller.song.0383"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 383"
+            }
+          ]
+        },
+        "0384": {
+          "animations": [
+            "controller.song.0384"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 384"
+            }
+          ]
+        },
+        "0397": {
+          "animations": [
+            "controller.song.0397"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 397"
+            }
+          ]
+        },
+        "0398": {
+          "animations": [
+            "controller.song.0398"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 398"
+            }
+          ]
+        },
+        "0402": {
+          "animations": [
+            "controller.song.0402"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 402"
+            }
+          ]
+        },
+        "0404": {
+          "animations": [
+            "controller.song.0404"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 404"
+            }
+          ]
+        },
+        "0405": {
+          "animations": [
+            "controller.song.0405"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 405"
+            }
+          ]
+        },
+        "0409": {
+          "animations": [
+            "controller.song.0409"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 409"
+            }
+          ]
+        },
+        "0410": {
+          "animations": [
+            "controller.song.0410"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 410"
+            }
+          ]
+        },
+        "0411": {
+          "animations": [
+            "controller.song.0411"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 411"
+            }
+          ]
+        },
+        "0422": {
+          "animations": [
+            "controller.song.0422"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 422"
+            }
+          ]
+        },
+        "0423": {
+          "animations": [
+            "controller.song.0423"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 423"
+            }
+          ]
+        },
+        "0424": {
+          "animations": [
+            "controller.song.0424"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 424"
+            }
+          ]
+        },
+        "0431": {
+          "animations": [
+            "controller.song.0431"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 431"
+            }
+          ]
+        },
+        "0434": {
+          "animations": [
+            "controller.song.0434"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 434"
+            }
+          ]
+        },
+        "0441": {
+          "animations": [
+            "controller.song.0441"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 441"
+            }
+          ]
+        },
+        "0442": {
+          "animations": [
+            "controller.song.0442"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 442"
+            }
+          ]
+        },
+        "103980": {
+          "animations": [
+            "controller.song.103980"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 103980"
+            }
+          ]
+        },
+        "103981": {
+          "animations": [
+            "controller.song.103981"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 103981"
+            }
+          ]
+        },
+        "103982": {
+          "animations": [
+            "controller.song.103982"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 103982"
+            }
+          ]
+        },
+        "103983": {
+          "animations": [
+            "controller.song.103983"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 103983"
+            }
+          ]
+        },
+        "104110": {
+          "animations": [
+            "controller.song.104110"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 104110"
+            }
+          ]
+        },
+        "104111": {
+          "animations": [
+            "controller.song.104111"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 104111"
+            }
+          ]
+        },
+        "104112": {
+          "animations": [
+            "controller.song.104112"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 104112"
+            }
+          ]
+        },
+        "104113": {
+          "animations": [
+            "controller.song.104113"
+          ],
+          "transitions": [
+            {
+              "default": "q.property('mcsekai:song') != 104113"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "0116": "q.property('mcsekai:song') == 116"
+            },
+            {
+              "0267": "q.property('mcsekai:song') == 267"
+            },
+            {
+              "0344": "q.property('mcsekai:song') == 344"
+            },
+            {
+              "0402": "q.property('mcsekai:song') == 402"
+            },
+            {
+              "0218": "q.property('mcsekai:song') == 218"
+            },
+            {
+              "0323": "q.property('mcsekai:song') == 323"
+            },
+            {
+              "0148": "q.property('mcsekai:song') == 148"
+            },
+            {
+              "0300": "q.property('mcsekai:song') == 300"
+            },
+            {
+              "0051": "q.property('mcsekai:song') == 51"
+            },
+            {
+              "0307": "q.property('mcsekai:song') == 307"
+            },
+            {
+              "0160": "q.property('mcsekai:song') == 160"
+            },
+            {
+              "0212": "q.property('mcsekai:song') == 212"
+            },
+            {
+              "0383": "q.property('mcsekai:song') == 383"
+            },
+            {
+              "0126": "q.property('mcsekai:song') == 126"
+            },
+            {
+              "0211": "q.property('mcsekai:song') == 211"
+            },
+            {
+              "0235": "q.property('mcsekai:song') == 235"
+            },
+            {
+              "0281": "q.property('mcsekai:song') == 281"
+            },
+            {
+              "0398": "q.property('mcsekai:song') == 398"
+            },
+            {
+              "0055": "q.property('mcsekai:song') == 55"
+            },
+            {
+              "0088": "q.property('mcsekai:song') == 88"
+            },
+            {
+              "0019": "q.property('mcsekai:song') == 19"
+            },
+            {
+              "0054": "q.property('mcsekai:song') == 54"
+            },
+            {
+              "0069": "q.property('mcsekai:song') == 69"
+            },
+            {
+              "0074": "q.property('mcsekai:song') == 74"
+            },
+            {
+              "0153": "q.property('mcsekai:song') == 153"
+            },
+            {
+              "0170": "q.property('mcsekai:song') == 170"
+            },
+            {
+              "0008": "q.property('mcsekai:song') == 8"
+            },
+            {
+              "0010": "q.property('mcsekai:song') == 10"
+            },
+            {
+              "0308": "q.property('mcsekai:song') == 308"
+            },
+            {
+              "0345": "q.property('mcsekai:song') == 345"
+            },
+            {
+              "0424": "q.property('mcsekai:song') == 424"
+            },
+            {
+              "0217": "q.property('mcsekai:song') == 217"
+            },
+            {
+              "0286": "q.property('mcsekai:song') == 286"
+            },
+            {
+              "0309": "q.property('mcsekai:song') == 309"
+            },
+            {
+              "0106": "q.property('mcsekai:song') == 106"
+            },
+            {
+              "0195": "q.property('mcsekai:song') == 195"
+            },
+            {
+              "0026": "q.property('mcsekai:song') == 26"
+            },
+            {
+              "0095": "q.property('mcsekai:song') == 95"
+            },
+            {
+              "104111": "q.property('mcsekai:song') == 104111"
+            },
+            {
+              "104112": "q.property('mcsekai:song') == 104112"
+            },
+            {
+              "103980": "q.property('mcsekai:song') == 103980"
+            },
+            {
+              "0063": "q.property('mcsekai:song') == 63"
+            },
+            {
+              "0196": "q.property('mcsekai:song') == 196"
+            },
+            {
+              "103982": "q.property('mcsekai:song') == 103982"
+            },
+            {
+              "0071": "q.property('mcsekai:song') == 71"
+            },
+            {
+              "0356": "q.property('mcsekai:song') == 356"
+            },
+            {
+              "0442": "q.property('mcsekai:song') == 442"
+            },
+            {
+              "103983": "q.property('mcsekai:song') == 103983"
+            },
+            {
+              "0112": "q.property('mcsekai:song') == 112"
+            },
+            {
+              "0253": "q.property('mcsekai:song') == 253"
+            },
+            {
+              "0174": "q.property('mcsekai:song') == 174"
+            },
+            {
+              "0259": "q.property('mcsekai:song') == 259"
+            },
+            {
+              "0283": "q.property('mcsekai:song') == 283"
+            },
+            {
+              "0405": "q.property('mcsekai:song') == 405"
+            },
+            {
+              "0041": "q.property('mcsekai:song') == 41"
+            },
+            {
+              "0098": "q.property('mcsekai:song') == 98"
+            },
+            {
+              "0325": "q.property('mcsekai:song') == 325"
+            },
+            {
+              "0182": "q.property('mcsekai:song') == 182"
+            },
+            {
+              "0287": "q.property('mcsekai:song') == 287"
+            },
+            {
+              "0136": "q.property('mcsekai:song') == 136"
+            },
+            {
+              "0142": "q.property('mcsekai:song') == 142"
+            },
+            {
+              "0226": "q.property('mcsekai:song') == 226"
+            },
+            {
+              "0299": "q.property('mcsekai:song') == 299"
+            },
+            {
+              "0064": "q.property('mcsekai:song') == 64"
+            },
+            {
+              "0127": "q.property('mcsekai:song') == 127"
+            },
+            {
+              "0159": "q.property('mcsekai:song') == 159"
+            },
+            {
+              "0404": "q.property('mcsekai:song') == 404"
+            },
+            {
+              "0411": "q.property('mcsekai:song') == 411"
+            },
+            {
+              "103981": "q.property('mcsekai:song') == 103981"
+            },
+            {
+              "0073": "q.property('mcsekai:song') == 73"
+            },
+            {
+              "0130": "q.property('mcsekai:song') == 130"
+            },
+            {
+              "0225": "q.property('mcsekai:song') == 225"
+            },
+            {
+              "0301": "q.property('mcsekai:song') == 301"
+            },
+            {
+              "0178": "q.property('mcsekai:song') == 178"
+            },
+            {
+              "0189": "q.property('mcsekai:song') == 189"
+            },
+            {
+              "0236": "q.property('mcsekai:song') == 236"
+            },
+            {
+              "0252": "q.property('mcsekai:song') == 252"
+            },
+            {
+              "0129": "q.property('mcsekai:song') == 129"
+            },
+            {
+              "0201": "q.property('mcsekai:song') == 201"
+            },
+            {
+              "0067": "q.property('mcsekai:song') == 67"
+            },
+            {
+              "0409": "q.property('mcsekai:song') == 409"
+            },
+            {
+              "0089": "q.property('mcsekai:song') == 89"
+            },
+            {
+              "0213": "q.property('mcsekai:song') == 213"
+            },
+            {
+              "0410": "q.property('mcsekai:song') == 410"
+            },
+            {
+              "0422": "q.property('mcsekai:song') == 422"
+            },
+            {
+              "0015": "q.property('mcsekai:song') == 15"
+            },
+            {
+              "0075": "q.property('mcsekai:song') == 75"
+            },
+            {
+              "0282": "q.property('mcsekai:song') == 282"
+            },
+            {
+              "0355": "q.property('mcsekai:song') == 355"
+            },
+            {
+              "0367": "q.property('mcsekai:song') == 367"
+            },
+            {
+              "0384": "q.property('mcsekai:song') == 384"
+            },
+            {
+              "104110": "q.property('mcsekai:song') == 104110"
+            },
+            {
+              "0001": "q.property('mcsekai:song') == 1"
+            },
+            {
+              "0260": "q.property('mcsekai:song') == 260"
+            },
+            {
+              "0121": "q.property('mcsekai:song') == 121"
+            },
+            {
+              "0237": "q.property('mcsekai:song') == 237"
+            },
+            {
+              "0268": "q.property('mcsekai:song') == 268"
+            },
+            {
+              "0357": "q.property('mcsekai:song') == 357"
+            },
+            {
+              "0423": "q.property('mcsekai:song') == 423"
+            },
+            {
+              "0431": "q.property('mcsekai:song') == 431"
+            },
+            {
+              "0060": "q.property('mcsekai:song') == 60"
+            },
+            {
+              "0068": "q.property('mcsekai:song') == 68"
+            },
+            {
+              "0141": "q.property('mcsekai:song') == 141"
+            },
+            {
+              "0070": "q.property('mcsekai:song') == 70"
+            },
+            {
+              "0133": "q.property('mcsekai:song') == 133"
+            },
+            {
+              "0057": "q.property('mcsekai:song') == 57"
+            },
+            {
+              "0441": "q.property('mcsekai:song') == 441"
+            },
+            {
+              "0052": "q.property('mcsekai:song') == 52"
+            },
+            {
+              "0169": "q.property('mcsekai:song') == 169"
+            },
+            {
+              "0341": "q.property('mcsekai:song') == 341"
+            },
+            {
+              "0002": "q.property('mcsekai:song') == 2"
+            },
+            {
+              "0003": "q.property('mcsekai:song') == 3"
+            },
+            {
+              "0077": "q.property('mcsekai:song') == 77"
+            },
+            {
+              "0180": "q.property('mcsekai:song') == 180"
+            },
+            {
+              "0120": "q.property('mcsekai:song') == 120"
+            },
+            {
+              "0147": "q.property('mcsekai:song') == 147"
+            },
+            {
+              "0434": "q.property('mcsekai:song') == 434"
+            },
+            {
+              "0076": "q.property('mcsekai:song') == 76"
+            },
+            {
+              "0091": "q.property('mcsekai:song') == 91"
+            },
+            {
+              "0377": "q.property('mcsekai:song') == 377"
+            },
+            {
+              "104113": "q.property('mcsekai:song') == 104113"
+            },
+            {
+              "0140": "q.property('mcsekai:song') == 140"
+            },
+            {
+              "0340": "q.property('mcsekai:song') == 340"
+            },
+            {
+              "0181": "q.property('mcsekai:song') == 181"
+            },
+            {
+              "0324": "q.property('mcsekai:song') == 324"
+            },
+            {
+              "0339": "q.property('mcsekai:song') == 339"
+            },
+            {
+              "0397": "q.property('mcsekai:song') == 397"
+            },
+            {
+              "0038": "q.property('mcsekai:song') == 38"
+            },
+            {
+              "0090": "q.property('mcsekai:song') == 90"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

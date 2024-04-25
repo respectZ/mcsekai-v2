@@ -1,0 +1,104 @@
+{
+  "format_version": "1.12.0",
+  "animation_controllers": {
+    "controller.animation.mcsekai.song.0141": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "playing": "q.property('mcsekai:is_playing')"
+            }
+          ]
+        },
+        "playing": {
+          "transitions": [
+            {
+              "playing.1": "q.property('mcsekai:song_character') == 1"
+            },
+            {
+              "playing.2": "q.property('mcsekai:song_character') == 2"
+            },
+            {
+              "playing.3": "q.property('mcsekai:song_character') == 3"
+            },
+            {
+              "playing.4": "q.property('mcsekai:song_character') == 4"
+            },
+            {
+              "playing.5": "q.property('mcsekai:song_character') == 5"
+            },
+            {
+              "playing.6": "q.property('mcsekai:song_character') == 6"
+            }
+          ]
+        },
+        "playing.1": {
+          "animations": [
+            "song.fix",
+            "song.0141.01"
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('mcsekai:is_playing')"
+            }
+          ]
+        },
+        "playing.2": {
+          "animations": [
+            "song.fix",
+            "song.0141.02"
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('mcsekai:is_playing')"
+            }
+          ]
+        },
+        "playing.3": {
+          "animations": [
+            "song.fix",
+            "song.0141.03"
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('mcsekai:is_playing')"
+            }
+          ]
+        },
+        "playing.4": {
+          "animations": [
+            "song.fix",
+            "song.0141.04"
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('mcsekai:is_playing')"
+            }
+          ]
+        },
+        "playing.5": {
+          "animations": [
+            "song.fix",
+            "song.0141.05"
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('mcsekai:is_playing')"
+            }
+          ]
+        },
+        "playing.6": {
+          "animations": [
+            "song.fix",
+            "song.0141.06"
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('mcsekai:is_playing')"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

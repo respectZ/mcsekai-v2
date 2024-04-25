@@ -1,0 +1,9 @@
+go 1.22.1
+
+use (
+	./scripts/entity_char
+	./scripts/song_injector
+	./tools/scrapper
+	./tools/song_downloader
+	./tools/unity_anim_to_mcfunction
+)

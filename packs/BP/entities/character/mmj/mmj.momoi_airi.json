@@ -1,0 +1,755 @@
+{
+  "format_version": "1.20.70",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mcsekai:mmj.momoi_airi",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "mcsekai:is_playing": {
+          "client_sync": true,
+          "type": "bool",
+          "default": false
+        },
+        "mcsekai:song": {
+          "client_sync": true,
+          "type": "int",
+          "range": [
+            0,
+            1000
+          ],
+          "default": 0
+        },
+        "mcsekai:song_character": {
+          "client_sync": true,
+          "type": "int",
+          "range": [
+            1,
+            5
+          ],
+          "default": 1
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:health": {
+        "value": 20
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:persistent": {},
+      "minecraft:type_family": {
+        "family": [
+          "mcsekai",
+          "dummy",
+          "inanimate",
+          "mmj",
+          "momoi_airi"
+        ]
+      }
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {
+          "remove_child_entities": true
+        }
+      }
+    },
+    "events": {
+      "mcsekai:despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      },
+      "mcsekai:song.0001": {
+        "set_property": {
+          "mcsekai:song": 1
+        }
+      },
+      "mcsekai:song.0002": {
+        "set_property": {
+          "mcsekai:song": 2
+        }
+      },
+      "mcsekai:song.0003": {
+        "set_property": {
+          "mcsekai:song": 3
+        }
+      },
+      "mcsekai:song.0008": {
+        "set_property": {
+          "mcsekai:song": 8
+        }
+      },
+      "mcsekai:song.0010": {
+        "set_property": {
+          "mcsekai:song": 10
+        }
+      },
+      "mcsekai:song.0015": {
+        "set_property": {
+          "mcsekai:song": 15
+        }
+      },
+      "mcsekai:song.0019": {
+        "set_property": {
+          "mcsekai:song": 19
+        }
+      },
+      "mcsekai:song.0026": {
+        "set_property": {
+          "mcsekai:song": 26
+        }
+      },
+      "mcsekai:song.0038": {
+        "set_property": {
+          "mcsekai:song": 38
+        }
+      },
+      "mcsekai:song.0041": {
+        "set_property": {
+          "mcsekai:song": 41
+        }
+      },
+      "mcsekai:song.0051": {
+        "set_property": {
+          "mcsekai:song": 51
+        }
+      },
+      "mcsekai:song.0052": {
+        "set_property": {
+          "mcsekai:song": 52
+        }
+      },
+      "mcsekai:song.0054": {
+        "set_property": {
+          "mcsekai:song": 54
+        }
+      },
+      "mcsekai:song.0055": {
+        "set_property": {
+          "mcsekai:song": 55
+        }
+      },
+      "mcsekai:song.0057": {
+        "set_property": {
+          "mcsekai:song": 57
+        }
+      },
+      "mcsekai:song.0060": {
+        "set_property": {
+          "mcsekai:song": 60
+        }
+      },
+      "mcsekai:song.0063": {
+        "set_property": {
+          "mcsekai:song": 63
+        }
+      },
+      "mcsekai:song.0064": {
+        "set_property": {
+          "mcsekai:song": 64
+        }
+      },
+      "mcsekai:song.0067": {
+        "set_property": {
+          "mcsekai:song": 67
+        }
+      },
+      "mcsekai:song.0068": {
+        "set_property": {
+          "mcsekai:song": 68
+        }
+      },
+      "mcsekai:song.0069": {
+        "set_property": {
+          "mcsekai:song": 69
+        }
+      },
+      "mcsekai:song.0070": {
+        "set_property": {
+          "mcsekai:song": 70
+        }
+      },
+      "mcsekai:song.0071": {
+        "set_property": {
+          "mcsekai:song": 71
+        }
+      },
+      "mcsekai:song.0073": {
+        "set_property": {
+          "mcsekai:song": 73
+        }
+      },
+      "mcsekai:song.0074": {
+        "set_property": {
+          "mcsekai:song": 74
+        }
+      },
+      "mcsekai:song.0075": {
+        "set_property": {
+          "mcsekai:song": 75
+        }
+      },
+      "mcsekai:song.0076": {
+        "set_property": {
+          "mcsekai:song": 76
+        }
+      },
+      "mcsekai:song.0077": {
+        "set_property": {
+          "mcsekai:song": 77
+        }
+      },
+      "mcsekai:song.0088": {
+        "set_property": {
+          "mcsekai:song": 88
+        }
+      },
+      "mcsekai:song.0089": {
+        "set_property": {
+          "mcsekai:song": 89
+        }
+      },
+      "mcsekai:song.0090": {
+        "set_property": {
+          "mcsekai:song": 90
+        }
+      },
+      "mcsekai:song.0091": {
+        "set_property": {
+          "mcsekai:song": 91
+        }
+      },
+      "mcsekai:song.0095": {
+        "set_property": {
+          "mcsekai:song": 95
+        }
+      },
+      "mcsekai:song.0098": {
+        "set_property": {
+          "mcsekai:song": 98
+        }
+      },
+      "mcsekai:song.0106": {
+        "set_property": {
+          "mcsekai:song": 106
+        }
+      },
+      "mcsekai:song.0112": {
+        "set_property": {
+          "mcsekai:song": 112
+        }
+      },
+      "mcsekai:song.0116": {
+        "set_property": {
+          "mcsekai:song": 116
+        }
+      },
+      "mcsekai:song.0120": {
+        "set_property": {
+          "mcsekai:song": 120
+        }
+      },
+      "mcsekai:song.0121": {
+        "set_property": {
+          "mcsekai:song": 121
+        }
+      },
+      "mcsekai:song.0126": {
+        "set_property": {
+          "mcsekai:song": 126
+        }
+      },
+      "mcsekai:song.0127": {
+        "set_property": {
+          "mcsekai:song": 127
+        }
+      },
+      "mcsekai:song.0129": {
+        "set_property": {
+          "mcsekai:song": 129
+        }
+      },
+      "mcsekai:song.0130": {
+        "set_property": {
+          "mcsekai:song": 130
+        }
+      },
+      "mcsekai:song.0133": {
+        "set_property": {
+          "mcsekai:song": 133
+        }
+      },
+      "mcsekai:song.0136": {
+        "set_property": {
+          "mcsekai:song": 136
+        }
+      },
+      "mcsekai:song.0140": {
+        "set_property": {
+          "mcsekai:song": 140
+        }
+      },
+      "mcsekai:song.0141": {
+        "set_property": {
+          "mcsekai:song": 141
+        }
+      },
+      "mcsekai:song.0142": {
+        "set_property": {
+          "mcsekai:song": 142
+        }
+      },
+      "mcsekai:song.0147": {
+        "set_property": {
+          "mcsekai:song": 147
+        }
+      },
+      "mcsekai:song.0148": {
+        "set_property": {
+          "mcsekai:song": 148
+        }
+      },
+      "mcsekai:song.0153": {
+        "set_property": {
+          "mcsekai:song": 153
+        }
+      },
+      "mcsekai:song.0159": {
+        "set_property": {
+          "mcsekai:song": 159
+        }
+      },
+      "mcsekai:song.0160": {
+        "set_property": {
+          "mcsekai:song": 160
+        }
+      },
+      "mcsekai:song.0169": {
+        "set_property": {
+          "mcsekai:song": 169
+        }
+      },
+      "mcsekai:song.0170": {
+        "set_property": {
+          "mcsekai:song": 170
+        }
+      },
+      "mcsekai:song.0174": {
+        "set_property": {
+          "mcsekai:song": 174
+        }
+      },
+      "mcsekai:song.0178": {
+        "set_property": {
+          "mcsekai:song": 178
+        }
+      },
+      "mcsekai:song.0180": {
+        "set_property": {
+          "mcsekai:song": 180
+        }
+      },
+      "mcsekai:song.0181": {
+        "set_property": {
+          "mcsekai:song": 181
+        }
+      },
+      "mcsekai:song.0182": {
+        "set_property": {
+          "mcsekai:song": 182
+        }
+      },
+      "mcsekai:song.0189": {
+        "set_property": {
+          "mcsekai:song": 189
+        }
+      },
+      "mcsekai:song.0195": {
+        "set_property": {
+          "mcsekai:song": 195
+        }
+      },
+      "mcsekai:song.0196": {
+        "set_property": {
+          "mcsekai:song": 196
+        }
+      },
+      "mcsekai:song.0201": {
+        "set_property": {
+          "mcsekai:song": 201
+        }
+      },
+      "mcsekai:song.0211": {
+        "set_property": {
+          "mcsekai:song": 211
+        }
+      },
+      "mcsekai:song.0212": {
+        "set_property": {
+          "mcsekai:song": 212
+        }
+      },
+      "mcsekai:song.0213": {
+        "set_property": {
+          "mcsekai:song": 213
+        }
+      },
+      "mcsekai:song.0217": {
+        "set_property": {
+          "mcsekai:song": 217
+        }
+      },
+      "mcsekai:song.0218": {
+        "set_property": {
+          "mcsekai:song": 218
+        }
+      },
+      "mcsekai:song.0225": {
+        "set_property": {
+          "mcsekai:song": 225
+        }
+      },
+      "mcsekai:song.0226": {
+        "set_property": {
+          "mcsekai:song": 226
+        }
+      },
+      "mcsekai:song.0235": {
+        "set_property": {
+          "mcsekai:song": 235
+        }
+      },
+      "mcsekai:song.0236": {
+        "set_property": {
+          "mcsekai:song": 236
+        }
+      },
+      "mcsekai:song.0237": {
+        "set_property": {
+          "mcsekai:song": 237
+        }
+      },
+      "mcsekai:song.0252": {
+        "set_property": {
+          "mcsekai:song": 252
+        }
+      },
+      "mcsekai:song.0253": {
+        "set_property": {
+          "mcsekai:song": 253
+        }
+      },
+      "mcsekai:song.0259": {
+        "set_property": {
+          "mcsekai:song": 259
+        }
+      },
+      "mcsekai:song.0260": {
+        "set_property": {
+          "mcsekai:song": 260
+        }
+      },
+      "mcsekai:song.0267": {
+        "set_property": {
+          "mcsekai:song": 267
+        }
+      },
+      "mcsekai:song.0268": {
+        "set_property": {
+          "mcsekai:song": 268
+        }
+      },
+      "mcsekai:song.0281": {
+        "set_property": {
+          "mcsekai:song": 281
+        }
+      },
+      "mcsekai:song.0282": {
+        "set_property": {
+          "mcsekai:song": 282
+        }
+      },
+      "mcsekai:song.0283": {
+        "set_property": {
+          "mcsekai:song": 283
+        }
+      },
+      "mcsekai:song.0286": {
+        "set_property": {
+          "mcsekai:song": 286
+        }
+      },
+      "mcsekai:song.0287": {
+        "set_property": {
+          "mcsekai:song": 287
+        }
+      },
+      "mcsekai:song.0299": {
+        "set_property": {
+          "mcsekai:song": 299
+        }
+      },
+      "mcsekai:song.0300": {
+        "set_property": {
+          "mcsekai:song": 300
+        }
+      },
+      "mcsekai:song.0301": {
+        "set_property": {
+          "mcsekai:song": 301
+        }
+      },
+      "mcsekai:song.0307": {
+        "set_property": {
+          "mcsekai:song": 307
+        }
+      },
+      "mcsekai:song.0308": {
+        "set_property": {
+          "mcsekai:song": 308
+        }
+      },
+      "mcsekai:song.0309": {
+        "set_property": {
+          "mcsekai:song": 309
+        }
+      },
+      "mcsekai:song.0323": {
+        "set_property": {
+          "mcsekai:song": 323
+        }
+      },
+      "mcsekai:song.0324": {
+        "set_property": {
+          "mcsekai:song": 324
+        }
+      },
+      "mcsekai:song.0325": {
+        "set_property": {
+          "mcsekai:song": 325
+        }
+      },
+      "mcsekai:song.0339": {
+        "set_property": {
+          "mcsekai:song": 339
+        }
+      },
+      "mcsekai:song.0340": {
+        "set_property": {
+          "mcsekai:song": 340
+        }
+      },
+      "mcsekai:song.0341": {
+        "set_property": {
+          "mcsekai:song": 341
+        }
+      },
+      "mcsekai:song.0344": {
+        "set_property": {
+          "mcsekai:song": 344
+        }
+      },
+      "mcsekai:song.0345": {
+        "set_property": {
+          "mcsekai:song": 345
+        }
+      },
+      "mcsekai:song.0355": {
+        "set_property": {
+          "mcsekai:song": 355
+        }
+      },
+      "mcsekai:song.0356": {
+        "set_property": {
+          "mcsekai:song": 356
+        }
+      },
+      "mcsekai:song.0357": {
+        "set_property": {
+          "mcsekai:song": 357
+        }
+      },
+      "mcsekai:song.0367": {
+        "set_property": {
+          "mcsekai:song": 367
+        }
+      },
+      "mcsekai:song.0377": {
+        "set_property": {
+          "mcsekai:song": 377
+        }
+      },
+      "mcsekai:song.0383": {
+        "set_property": {
+          "mcsekai:song": 383
+        }
+      },
+      "mcsekai:song.0384": {
+        "set_property": {
+          "mcsekai:song": 384
+        }
+      },
+      "mcsekai:song.0397": {
+        "set_property": {
+          "mcsekai:song": 397
+        }
+      },
+      "mcsekai:song.0398": {
+        "set_property": {
+          "mcsekai:song": 398
+        }
+      },
+      "mcsekai:song.0402": {
+        "set_property": {
+          "mcsekai:song": 402
+        }
+      },
+      "mcsekai:song.0404": {
+        "set_property": {
+          "mcsekai:song": 404
+        }
+      },
+      "mcsekai:song.0405": {
+        "set_property": {
+          "mcsekai:song": 405
+        }
+      },
+      "mcsekai:song.0409": {
+        "set_property": {
+          "mcsekai:song": 409
+        }
+      },
+      "mcsekai:song.0410": {
+        "set_property": {
+          "mcsekai:song": 410
+        }
+      },
+      "mcsekai:song.0411": {
+        "set_property": {
+          "mcsekai:song": 411
+        }
+      },
+      "mcsekai:song.0422": {
+        "set_property": {
+          "mcsekai:song": 422
+        }
+      },
+      "mcsekai:song.0423": {
+        "set_property": {
+          "mcsekai:song": 423
+        }
+      },
+      "mcsekai:song.0424": {
+        "set_property": {
+          "mcsekai:song": 424
+        }
+      },
+      "mcsekai:song.0431": {
+        "set_property": {
+          "mcsekai:song": 431
+        }
+      },
+      "mcsekai:song.0434": {
+        "set_property": {
+          "mcsekai:song": 434
+        }
+      },
+      "mcsekai:song.0441": {
+        "set_property": {
+          "mcsekai:song": 441
+        }
+      },
+      "mcsekai:song.0442": {
+        "set_property": {
+          "mcsekai:song": 442
+        }
+      },
+      "mcsekai:song.103980": {
+        "set_property": {
+          "mcsekai:song": 103980
+        }
+      },
+      "mcsekai:song.103981": {
+        "set_property": {
+          "mcsekai:song": 103981
+        }
+      },
+      "mcsekai:song.103982": {
+        "set_property": {
+          "mcsekai:song": 103982
+        }
+      },
+      "mcsekai:song.103983": {
+        "set_property": {
+          "mcsekai:song": 103983
+        }
+      },
+      "mcsekai:song.104110": {
+        "set_property": {
+          "mcsekai:song": 104110
+        }
+      },
+      "mcsekai:song.104111": {
+        "set_property": {
+          "mcsekai:song": 104111
+        }
+      },
+      "mcsekai:song.104112": {
+        "set_property": {
+          "mcsekai:song": 104112
+        }
+      },
+      "mcsekai:song.104113": {
+        "set_property": {
+          "mcsekai:song": 104113
+        }
+      },
+      "mcsekai:song.start": {
+        "set_property": {
+          "mcsekai:is_playing": true
+        }
+      },
+      "mcsekai:song.stop": {
+        "set_property": {
+          "mcsekai:is_playing": false
+        }
+      },
+      "mcsekai:song_character.1": {
+        "set_property": {
+          "mcsekai:song_character": 1
+        }
+      },
+      "mcsekai:song_character.2": {
+        "set_property": {
+          "mcsekai:song_character": 2
+        }
+      },
+      "mcsekai:song_character.3": {
+        "set_property": {
+          "mcsekai:song_character": 3
+        }
+      },
+      "mcsekai:song_character.4": {
+        "set_property": {
+          "mcsekai:song_character": 4
+        }
+      },
+      "mcsekai:song_character.5": {
+        "set_property": {
+          "mcsekai:song_character": 5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+/build
+/.regolith
+__pycache__/
+node_modules/
+venv/
+
+scripts/
+tools/

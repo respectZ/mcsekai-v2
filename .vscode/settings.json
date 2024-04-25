@@ -1,0 +1,19 @@
+{
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "deno.enable": false,
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.material": "jsonc"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  }
+}

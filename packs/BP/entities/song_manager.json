@@ -1,0 +1,80 @@
+{
+  "format_version": "1.20.70",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mcsekai:song_manager",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "mcsekai:is_playing": {
+          "client_sync": true,
+          "type": "bool",
+          "default": false
+        },
+        "mcsekai:song": {
+          "client_sync": true,
+          "type": "int",
+          "range": [
+            0,
+            1000
+          ],
+          "default": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 1,
+        "width": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:health": {
+        "value": 20
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "interact_text": "Start",
+            "on_interact": {
+              "event": "mcsekai:interact"
+            }
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:persistent": {},
+      "minecraft:type_family": {
+        "family": [
+          "mcsekai",
+          "dummy",
+          "inanimate"
+        ]
+      }
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {
+          "remove_child_entities": true
+        }
+      }
+    },
+    "events": {
+      "mcsekai:despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      },
+      "mcsekai:interact": {
+        "queue_command": {
+          "command": "scriptevent mcsekai:song.trigger",
+          "target": "other"
+        }
+      }
+    }
+  }
+}
