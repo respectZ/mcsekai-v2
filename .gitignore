@@ -4,5 +4,5 @@ __pycache__/
 node_modules/
 venv/
 
-scripts/
+/scripts/
 tools/
