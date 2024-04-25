@@ -188,7 +188,7 @@
 				{
 					"name": "wrist_l",
 					"parent": "elbow_l",
-					"pivot": [5, 6, 0],
+					"pivot": [6, 6, 0],
 					"cubes": [
 						{
 							"origin": [4, 0, -2],
