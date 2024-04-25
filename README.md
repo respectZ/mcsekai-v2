@@ -28,6 +28,7 @@ Song actors are fully configurable.
   - [Kiritani Haruka](https://www.minecraftskins.com/skin/18286817/project-sekai--kiritani-haruka/)
   - [Momoi Airi](https://www.minecraftskins.com/skin/22367362/airi-momoi-pjsk/)
   - [Hinomori Shizuku](https://www.minecraftskins.com/skin/21703878/shizuku-hinomori/)
+  - [Miku MMJ](https://www.minecraftskins.com/skin/22387293/more-more-jump-miku--3rd-anni-redesign-/)
   - [VIRTUAL SINGER](https://www.planetminecraft.com/member/alchemyandmagic/)
 
 # Quick Start
