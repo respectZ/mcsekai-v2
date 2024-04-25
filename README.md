@@ -1,4 +1,6 @@
 # mcsekai
+![](./preview.gif)
+
 Play a certain 3dmv rhythm game in minecraft bedrock edition.
 
 Song actors are fully configurable.
