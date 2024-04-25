@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "*"
+      - name: Install Dependencies
+        run: npm install
+      - name: Remove .gitkeep
+        run: find . -type f -name ".gitkeep" -delete
+      - uses: respectZ/rgl-action@v1.0.1
+        with:
+          profile: build
+      - name: Create MCAddon
+        uses: vimtor/action-zip@v1.1
+        with:
+          files: build/
+          dest: ${{ github.event.repository.name }}@${{ github.ref_name }}.mcaddon
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            *.mcaddon
+            **/*.mcworld
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
