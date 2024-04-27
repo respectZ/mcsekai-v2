@@ -20,6 +20,7 @@ export const Character = {
     kagamine_rin: toId("nigo", "kagamine_rin"),
     kaito: toId("nigo", "kaito"),
     meiko: toId("nigo", "meiko"),
+    megurine_luka: toId("nigo", "megurine_luka"),
   },
   vbs: {
     aoyagi_toya: toId("vbs", "aoyagi_toya"),
@@ -32,6 +33,7 @@ export const Character = {
     kagamine_rin: toId("vbs", "kagamine_rin"),
     kaito: toId("vbs", "kaito"),
     meiko: toId("vbs", "meiko"),
+    megurine_luka: toId("vbs", "megurine_luka"),
   },
   leoni: {
     hinomori_shiho: toId("leoni", "hinomori_shiho"),
@@ -44,6 +46,7 @@ export const Character = {
     kagamine_rin: toId("leoni", "kagamine_rin"),
     kaito: toId("leoni", "kaito"),
     meiko: toId("leoni", "meiko"),
+    megurine_luka: toId("leoni", "megurine_luka"),
   },
   mmj: {
     hinomori_shizuku: toId("mmj", "hinomori_shizuku"),
@@ -56,6 +59,7 @@ export const Character = {
     kagamine_rin: toId("mmj", "kagamine_rin"),
     kaito: toId("mmj", "kaito"),
     meiko: toId("mmj", "meiko"),
+    megurine_luka: toId("mmj", "megurine_luka"),
   },
   wxs: {
     kamishiro_rui: toId("wxs", "kamishiro_rui"),
@@ -68,5 +72,6 @@ export const Character = {
     kagamine_rin: toId("wxs", "kagamine_rin"),
     kaito: toId("wxs", "kaito"),
     meiko: toId("wxs", "meiko"),
+    megurine_luka: toId("wxs", "megurine_luka"),
   },
 };

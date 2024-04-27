@@ -42,6 +42,16 @@ export const Songs: Songs = {
     ],
     camera: CameraData.camera0398,
   },
+  "0434": {
+    characters: [
+      Character.wxs.tenma_tsukasa,
+      Character.wxs.otori_emu,
+      Character.wxs.kusanagi_nene,
+      Character.wxs.kamishiro_rui,
+      Character.wxs.megurine_luka,
+    ],
+    camera: CameraData.camera0434,
+  },
   "0441": {
     characters: [
       Character.vbs.azusawa_kohane,
